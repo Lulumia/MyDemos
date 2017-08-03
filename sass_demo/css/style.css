@@ -1,0 +1,14 @@
+.icons-sprite, .icons-lol, .lol {
+  background-image: url('../images/icons-s8f11c9335d.png');
+  background-repeat: no-repeat; }
+
+.icons-lol {
+  background-position: 0 -1024px; }
+  .icons-lol:hover, .icons-lol.lol-hover {
+    background-position: 0 0; }
+
+.lol {
+  background-position: 0 -1024px;
+  height: 512px; }
+  .lol:hover, .lol.lol-hover {
+    background-position: 0 0; }
