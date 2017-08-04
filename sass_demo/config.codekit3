@@ -16,9 +16,9 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
-		"oAP": "\/build\/config.rb",
+		"oAP": "\/config.rb",
 		"oF": 0
 		},
 	"\/css\/style.css": {
@@ -31,35 +31,24 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/images\/icons-s8f11c9335d.png": {
+	"\/images\/icons-s7ab40a3ecf.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 10074,
 		"oA": 0,
-		"oAP": "\/build\/images\/icons-s8f11c9335d.png",
+		"oAP": "\/build\/images\/icons-s7ab40a3ecf.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/icons\/lol-hover.png": {
+	"\/images\/icons\/head.png": {
 		"ft": 32768,
-		"iS": 44552,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/build\/images\/icons\/lol-hover.png",
+		"oAP": "\/build\/images\/icons\/head.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/icons\/lol.png": {
-		"ft": 32768,
-		"iS": 61641,
-		"oA": 0,
-		"oAP": "\/build\/images\/icons\/lol.png",
-		"oF": 0,
-		"oIPL": 1,
+		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
@@ -70,20 +59,20 @@
 		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
-	"\/main-min.js": {
+	"\/js\/incline.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "\/build\/main-min-min.js",
+		"oA": 0,
+		"oAP": "\/build\/js\/incline-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/main.js": {
+	"\/js\/main.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/main-min.js",
+		"oAP": "\/build\/js\/main-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -111,7 +100,7 @@
 	"displayValue": "sass_demo",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-yesBaby",
-	"lastBuiltDate": 523448065
+	"lastBuiltDate": 523507306
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -1,14 +1,22 @@
-.icons-sprite, .icons-lol, .lol {
-  background-image: url('../images/icons-s8f11c9335d.png');
+.icons-sprite, .icons-head, .head {
+  background-image: url('../images/icons-s7ab40a3ecf.png');
   background-repeat: no-repeat; }
 
-.icons-lol {
-  background-position: 0 -1024px; }
-  .icons-lol:hover, .icons-lol.lol-hover {
-    background-position: 0 0; }
+.icons-head {
+  background-position: 0 0; }
 
-.lol {
-  background-position: 0 -1024px;
-  height: 512px; }
-  .lol:hover, .lol.lol-hover {
-    background-position: 0 0; }
+html, body {
+  height: 100%; }
+
+.head {
+  background-position: 0 0;
+  height: 160px;
+  width: 208px;
+  position: relative; }
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 0 100px;
+  background-color: black; }

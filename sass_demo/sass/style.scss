@@ -4,8 +4,23 @@
 
 @include all-icons-sprites;
 
-.lol {
-    $height: icons-sprite-height(lol);
-    @include icons-sprite(lol);
-    height: $height / 2;
+html, body {
+    height: 100%;
+}
+
+.head {
+    $height: icons-sprite-height(head);
+    $width: icons-sprite-width(head);
+    @include icons-sprite(head);
+    height: $height;
+    width: $width;
+    position: relative;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0 100px;
+    background-color: black;
 }
