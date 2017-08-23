@@ -7,6 +7,10 @@ function pcMove() {
     $(".box").mouseup(function(e) {
         var x = Math.abs(e.clientX - mouseX);
         var y = mouseY - e.clientY;
+        var a = e.clientX - mouseX;
+        var b = e.clientY - mouseY;
+        var angle = 360*Math.atan(a/b)/(2*Math.PI)
+        console.log("this is the angle....", angle);
         if (x<100 && y>100) {
             $(".head").animate({
                 top: "-200px"
