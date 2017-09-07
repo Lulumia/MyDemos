@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./css/style.css">
         <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+        <script src="./js/sweetalert.min.js"></script>
+        <link rel="stylesheet" href="./css/sweetalert.css">
         <title>
             SASS DEMO
         </title>
@@ -17,6 +19,18 @@
             <p>前后: <span id="vertical">0</span></p>
             <p>扭转: <span id="gamma">0</span></p>
         </div>
+        <script>
+            swal({
+                title: "",
+                text: "另存为,将拷贝当前作品,是否拷贝?",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#DD6B55",
+                confirmButtonText: "确定",
+                cancelButtonText: "取消",
+                closeOnConfirm: true
+            });
+        </script>
         <script src="./js/main.js"></script>
         <script src="./js/incline.js"></script>
     </body>
